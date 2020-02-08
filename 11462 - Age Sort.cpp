@@ -9,8 +9,7 @@ int main()
     while(scanf("%d", &n))
     {
         if(!n) break;
-        int age[101], idx = 0;
-        for(int i = 0; i < 200; i++) age[i] = 0;
+        int age[101] = {0}, idx = 0;
         for(int i = 0; i < n; i++)
         {
             int value;
